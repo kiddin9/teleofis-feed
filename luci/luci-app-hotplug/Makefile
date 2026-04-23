@@ -3,7 +3,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=luci-app-hotplug
 
 LUCI_TITLE:=LuCI interface for hotplug configuration
-LUCI_DEPENDS:=+luci-base
+LUCI_DEPENDS:=+luci-base +hotplug
 LUCI_PKGARCH:=all
 PKG_VERSION:=1.0
 
