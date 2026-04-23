@@ -3,7 +3,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=luci-app-iolines
 
 LUCI_TITLE:=LuCI I/O switcher
-LUCI_DEPENDS:=+luci-base
+LUCI_DEPENDS:=+luci-base +iolines
 LUCI_PKGARCH:=all
 PKG_VERSION:=0.2.3
 
